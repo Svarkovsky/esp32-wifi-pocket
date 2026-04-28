@@ -27,6 +27,12 @@ Miniature WiFi router for ESP32-S3 with web-interface. Creates an access point w
 
 ## Quick Start
 
+### Requirements
+
+- **ESP-IDF v5.0 or later**
+  - Developed and tested on **v5.4.4**
+  - Should build successfully on `v5.0` – `v5.5.x`
+
 ```bash
 idf.py fullclean
 idf.py set-target esp32s3
