@@ -58,6 +58,23 @@ AP Password: C3F8A1B2
 
 Connect to the `Pocket-XXXX` network with the password shown, then open `http://192.168.4.1` to configure external WiFi.
 
+## Default Password
+
+On first boot, the AP password is generated from the device MAC address.  
+If you don't have serial console access, you can figure it out from the AP name:
+
+**Example:**
+```
+AP SSID: Pocket-9435   ← visible in your WiFi list
+MAC:      ...:21:94:35 (hidden)
+Password: D9219435     ← last 4 bytes of MAC: D9:21:94:35
+```
+
+The SSID `Pocket-9435` uses the last 2 bytes of the MAC (`94:35`).  
+The password uses the last 4 bytes of the same MAC (`D9:21:94:35` → `D9219435`).
+
+> ⚠️ Change the password via web-interface (`Settings` tab) after first connect.
+
 ## License
 
 GPL v3 © Ivan Svarkovsky, 2026
