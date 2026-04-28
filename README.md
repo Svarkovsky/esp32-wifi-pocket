@@ -51,7 +51,7 @@ After flashing, the console will show:
 ```
 ==============================
 AP SSID:     Pocket-1A2B
-AP Password: C3F8A1B2
+AP Password: C3F81A2B
 >>> NEW PASSWORD GENERATED <<<
 ==============================
 ```
