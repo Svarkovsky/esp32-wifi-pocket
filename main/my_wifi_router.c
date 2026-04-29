@@ -148,6 +148,7 @@ static void wifi_event_handler(void* arg, esp_event_base_t event_base, int32_t e
 // ======================= WEB ИНТЕРФЕЙС =======================
 const char* html_page = 
 "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width, initial-scale=1.0'><title>ESP32 WiFi Pocket</title>"
+"<link rel='icon' href='data:,'>" 
 "<style>"
 "*{box-sizing:border-box;margin:0;padding:0}"
 "body{font-family:system-ui,-apple-system,sans-serif;background:#f4f6f9;display:flex;justify-content:center;align-items:center;min-height:100vh;color:#1e293b}"
